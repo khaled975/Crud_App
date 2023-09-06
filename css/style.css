@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;;
+}
+/* Start Head */
+.crud .container{
+    width: 80%;
+    margin: auto;
+}
+.crud .container .head{
+    text-align: center;
+    margin-top: 30px;
+}
+.crud .container .head h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.crud .container .head p{
+    font-size: 25px;
+    letter-spacing: 2.5px;
+}
+/* End Head */
+/* Start Inputs */
+
+input{
+    outline: none;
+    border: 1px solid #ccc;
+    margin: 10px;
+    transition: 0.3s;
+    padding: 8px;
+    width: 100%;
+}
+input:focus{
+    background-color: #ccc;
+    transform: scale(1.1);
+}
+.inputs .price-inputs{
+    display: flex;
+    align-items: center;
+
+}
+.inputs .price-inputs #price-input{
+
+}
+.inputs .price-inputs #advs-input{
+
+}
+.inputs .price-inputs #taxes-input{
+
+}
+.inputs .price-inputs #discount-input{
+
+}
+.inputs .price-inputs #total-price{
+    /* display: none; */
+    /* visibility: hidden;
+    visibility: visible; */
+    border: none;
+}
+.inputs #count-input{
+
+}
+.inputs #category-input{
+
+}
+button{
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 100%;
+}
+.inputs #create-btn{
+    margin: 10px 0px;
+    font-weight: 900;
+    display: block;
+}
+button:hover{
+    background-color: #ccc;
+}
+.outputs .search-btn {
+    display: flex;
+    gap: 100px;
+    margin: 10px 0px;
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+table thead{
+    background-color: #444;
+    color: white;
+}
+
+
+
+/* End Inputs */
